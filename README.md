@@ -18,7 +18,7 @@ Kendi satırınızı başlangıç rolünüzle ekleyin. Lider `PM`'dir; diğer ü
 
 - İrem Deneri — PM (lider)
 - Ceren Gözel — BE (başlangıç rolü)
-- Yusuf Baki Korkmaz — FE (başlangıç rolü)
+- Baki Korkmaz — FE (başlangıç rolü)
 - Serra Erdem — DQ (başlangıç rolü, veri analisti ve kalite)
 
 ## Klasör Yapısı
