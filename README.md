@@ -17,9 +17,9 @@ VBA II (Veri Bilimi ve Analitik) dersi kapsamındaki **veri şirketi simülasyon
 Kendi satırınızı başlangıç rolünüzle ekleyin. Lider `PM`'dir; diğer üç üye PM'nin işe alımıyla başlangıç rollerine yerleştirilir. Roller Görev 1–3 boyunca dönem planı §1.3'e göre döner:
 
 - İrem Deneri — PM (lider)
-- Ad Soyad — BE (başlangıç rolü)
-- Ad Soyad — FE (başlangıç rolü)
-- Ad Soyad — DQ (başlangıç rolü, veri analisti ve kalite)
+- Ceren Gözel — BE (başlangıç rolü)
+- Yusuf Baki Korkmaz — FE (başlangıç rolü)
+- Serra Erdem — DQ (başlangıç rolü, veri analisti ve kalite)
 
 ## Klasör Yapısı
 
