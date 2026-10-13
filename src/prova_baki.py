@@ -1,0 +1,1 @@
+import os`nimport random`n`nsayilar = [random.randint(1, 100) for _ in range(10)]`n`nos.makedirs("data", exist_ok=True)`n`ndosya_yolu = os.path.join("data", "prova-baki.csv")`nwith open(dosya_yolu, "w", encoding="utf-8") as f:`n    f.write("deger\n")`n    for sayi in sayilar:`n        f.write(f"{sayi}\n")`n`nprint("Ýþlem baþarýlý!")
