@@ -1,3 +1,4 @@
+# H2 prova - Serra Erdem
 import csv
 import os
 import random
