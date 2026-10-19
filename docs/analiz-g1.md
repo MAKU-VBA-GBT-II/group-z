@@ -112,8 +112,7 @@ Sipariş hacmi Nisan–Haziran döneminde zirve yapıyor, Ağustos'ta dip noktay
 
 2\. \*\*Gecikme riski tedarikçiye göre keskin biçimde değişiyor.\*\* Akdeniz Ticaret'in gecikme oranı (%21,1), Trakya Paketleme'nin (%5,0) yaklaşık 4 katı. Genel ortalama %12,5.
 
-3\. \*\*Siparişler mevsimsel.\*\* Nisan–Haziran'da 107 sipariş (toplamın yaklaşık %45'i) verilmiş, Ağustos'ta yalnızca 16. Not: veri sözlüğü Eylül'ü yoğun olarak anıyor, ancak gerçek veride en yoğun ay Nisan'dır (38 sipariş), Eylül ise 29 sipariş ile Ağustos sonrası toparlanma ayıdır.
-
+3\. \*\*Siparişler mevsimsel.\*\* Nisan–Haziran'da 107 sipariş (toplamın yaklaşık %45'i) verilmiş, Ağustos'ta yalnızca 16.Eylül, Ağustos'taki düşüşten sonra toparlanma ayıdır (29 sipariş).
 
 
 \## Eylem önerisi
