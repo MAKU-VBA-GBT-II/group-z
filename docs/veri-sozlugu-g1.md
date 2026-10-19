@@ -25,7 +25,7 @@
 - **Boş (eksik) değer yoktur.** Tüm alanlar her satırda doludur.
 - **Tutarlılık:** `toplam_tutar_tl = miktar × birim_fiyat_tl` (yuvarlama farkı ≤ 0,01).
 - **Gecikme:** `Gecikmiş` siparişlerin `teslim_suresi_gun` değerine 3–8 gün eklenmiştir; bu yüzden genelde en uzun süreler bu grupta çıkar.
-- **Mevsimsellik:** Sipariş sayısı aylara göre değişir (Eylül yoğun, Ağustos sakin); zaman serisi grafiğinde bu desen görünür.
+- **Mevsimsellik:** Sipariş sayısı aylara göre değişir: en yoğun dönem Nisan–Haziran (38, 33 ve 36 sipariş), en sakin ay Ağustos (16 sipariş); Eylül'de (29) toparlanma görülür. Zaman serisi grafiğinde bu desen görünür.
 - **Tedarikçi farkı:** Her tedarikçinin gecikme olasılığı ve fiyat düzeyi farklıdır (örn. Akdeniz Ticaret en çok gecikme, en düşük fiyat).
 - **Tekrarlanabilirlik:** `python src/veri_uret.py` (seed=42) her çalıştırmada birebir aynı dosyayı üretir.
 
