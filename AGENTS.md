@@ -14,7 +14,7 @@ Bu dosya, depodaki skill'lerin envanteridir: hangi skill nerede, ne işe yarar, 
 |-------|-----|--------|--------------|------------------|
 | pm-rapor | skills/pm-rapor/SKILL.md | İrem Deneri (PM) | Issue ve devir yorumlarından haftalık sprint raporunu (reports/report-w03.md) üretir | Ajana: "skills/pm-rapor/SKILL.md talimatını izleyerek raporu üret" |
 | be-veri | skills/be-veri/SKILL.md | Ceren Gözel (BE) | (Tamamlandı) Sabit tohumla tedarik verisi üretir (data/tedarik-verisi.csv) | (Tamamlandı) |
-| dq-analiz | skills/dq-analiz/SKILL.md | Serra Erdem (DQ) | (Tamamlandı) Veriden 5 metrik çıkarır (docs/analiz-g1.md) | (bekleniyor) |
+| dq-analiz | skills/dq-analiz/SKILL.md | Serra Erdem (DQ) | (Tamamlandı) Veriden 5 metrik çıkarır (docs/analiz-g1.md) | (Tamamlandı) |
 | fe-gorsel | skills/fe-gorsel/SKILL.md | Baki Korkmaz (FE) | (bekleniyor) Zaman serisi ve kırılım grafiklerini üretir (visuals/) | (bekleniyor) |
 | dq-test | skills/dq-test/SKILL.md | Serra Erdem (DQ) | (Tamamlandı) Veri için test senaryoları yazar (tests/test-cases.md) | (Tamamlandı) |
 
