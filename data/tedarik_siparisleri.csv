@@ -1,5 +1,241 @@
-siparis_tarihi,urun_kategorisi,toplam_tutar_tl
-2026-01-10,Elektronik,1500
-2026-01-15,Giyim,500
-2026-02-05,Elektronik,2300
-2026-03-12,Ev,1200
+siparis_id,siparis_tarihi,tedarikci,urun_kategorisi,depo_bolgesi,miktar,birim_fiyat_tl,toplam_tutar_tl,teslim_suresi_gun,teslimat_durumu
+SIP-0001,2026-01-03,Anadolu Tedarik A.Ş.,Ambalaj,İç Anadolu,3496,9.64,33701.44,4,Zamanında
+SIP-0002,2026-01-06,Akdeniz Ticaret,Hammadde,Marmara,1145,70.43,80642.35,9,Zamanında
+SIP-0003,2026-01-06,Ege Lojistik Ltd.,Ambalaj,Ege,1112,6.36,7072.32,9,Zamanında
+SIP-0004,2026-01-09,Trakya Paketleme,Yedek Parça,Akdeniz,181,453.39,82063.59,5,Zamanında
+SIP-0005,2026-01-10,Marmara Endüstri,Kimyasal,İç Anadolu,417,112.84,47054.28,8,Zamanında
+SIP-0006,2026-01-13,Marmara Endüstri,Kimyasal,Marmara,710,205.34,145791.40,8,Zamanında
+SIP-0007,2026-01-15,Marmara Endüstri,Elektronik,Ege,247,638.34,157669.98,7,Zamanında
+SIP-0008,2026-01-16,Trakya Paketleme,Ambalaj,Marmara,3514,6.56,23051.84,4,Zamanında
+SIP-0009,2026-01-19,Trakya Paketleme,Ambalaj,İç Anadolu,861,2.10,1808.10,5,Zamanında
+SIP-0010,2026-01-19,Karadeniz Hammadde,Ambalaj,Akdeniz,4121,9.31,38366.51,10,Zamanında
+SIP-0011,2026-01-20,Karadeniz Hammadde,Hammadde,Ege,340,52.07,17703.80,9,Zamanında
+SIP-0012,2026-01-21,Trakya Paketleme,Ambalaj,İç Anadolu,968,2.58,2497.44,2,Zamanında
+SIP-0013,2026-01-22,Akdeniz Ticaret,Ambalaj,Karadeniz,660,9.72,6415.20,15,Gecikmiş
+SIP-0014,2026-01-23,Trakya Paketleme,Elektronik,Marmara,66,730.87,48237.42,6,Zamanında
+SIP-0015,2026-01-23,Ege Lojistik Ltd.,Kimyasal,Marmara,645,163.72,105599.40,8,Zamanında
+SIP-0016,2026-01-25,Ege Lojistik Ltd.,Hammadde,Akdeniz,638,47.55,30336.90,7,Zamanında
+SIP-0017,2026-01-29,Trakya Paketleme,Hammadde,Ege,1649,44.76,73809.24,2,Zamanında
+SIP-0018,2026-01-29,Marmara Endüstri,Hammadde,Karadeniz,1314,50.38,66199.32,9,Zamanında
+SIP-0019,2026-01-30,Anadolu Tedarik A.Ş.,Hammadde,Karadeniz,1020,49.06,50041.20,5,Zamanında
+SIP-0020,2026-02-03,Trakya Paketleme,Hammadde,Karadeniz,1676,73.39,123001.64,5,Zamanında
+SIP-0021,2026-02-03,Trakya Paketleme,Ambalaj,Ege,991,8.10,8027.10,4,Kısmi Teslim
+SIP-0022,2026-02-05,Ege Lojistik Ltd.,Ambalaj,Karadeniz,3187,10.59,33750.33,8,Zamanında
+SIP-0023,2026-02-09,Ege Lojistik Ltd.,Yedek Parça,Ege,109,246.62,26881.58,7,Zamanında
+SIP-0024,2026-02-10,Anadolu Tedarik A.Ş.,Ambalaj,Akdeniz,1219,10.11,12324.09,10,Zamanında
+SIP-0025,2026-02-11,Anadolu Tedarik A.Ş.,Yedek Parça,Karadeniz,84,366.86,30816.24,7,Zamanında
+SIP-0026,2026-02-11,Karadeniz Hammadde,Ambalaj,Marmara,4106,2.91,11948.46,7,Zamanında
+SIP-0027,2026-02-11,Anadolu Tedarik A.Ş.,Kimyasal,İç Anadolu,510,202.96,103509.60,7,Zamanında
+SIP-0028,2026-02-13,Trakya Paketleme,Kimyasal,Akdeniz,87,95.60,8317.20,11,Gecikmiş
+SIP-0029,2026-02-14,Marmara Endüstri,Yedek Parça,Akdeniz,188,446.97,84030.36,5,Zamanında
+SIP-0030,2026-02-16,Anadolu Tedarik A.Ş.,Hammadde,Akdeniz,1969,55.00,108295.00,7,Zamanında
+SIP-0031,2026-02-17,Akdeniz Ticaret,Hammadde,İç Anadolu,692,47.93,33167.56,18,Gecikmiş
+SIP-0032,2026-02-18,Marmara Endüstri,Kimyasal,Marmara,111,73.36,8142.96,6,Zamanında
+SIP-0033,2026-02-19,Karadeniz Hammadde,Hammadde,Marmara,757,42.49,32164.93,8,Zamanında
+SIP-0034,2026-02-24,Karadeniz Hammadde,Hammadde,Karadeniz,1675,71.42,119628.50,11,Zamanında
+SIP-0035,2026-02-26,Anadolu Tedarik A.Ş.,Yedek Parça,İç Anadolu,173,283.37,49023.01,5,Zamanında
+SIP-0036,2026-02-26,Marmara Endüstri,Hammadde,Karadeniz,1089,39.34,42841.26,6,Zamanında
+SIP-0037,2026-02-27,Ege Lojistik Ltd.,Ambalaj,Akdeniz,2072,4.05,8391.60,12,Gecikmiş
+SIP-0038,2026-03-02,Karadeniz Hammadde,Ambalaj,Ege,1006,6.31,6347.86,10,Zamanında
+SIP-0039,2026-03-05,Trakya Paketleme,Yedek Parça,Karadeniz,135,175.61,23707.35,7,Zamanında
+SIP-0040,2026-03-09,Marmara Endüstri,Hammadde,İç Anadolu,1213,56.53,68570.89,8,Zamanında
+SIP-0041,2026-03-11,Akdeniz Ticaret,Yedek Parça,Marmara,116,76.76,8904.16,11,Zamanında
+SIP-0042,2026-03-12,Marmara Endüstri,Yedek Parça,Ege,35,238.62,8351.70,4,Zamanında
+SIP-0043,2026-03-12,Ege Lojistik Ltd.,Hammadde,Marmara,668,18.41,12297.88,14,Gecikmiş
+SIP-0044,2026-03-12,Marmara Endüstri,Hammadde,Ege,1471,32.86,48337.06,4,Zamanında
+SIP-0045,2026-03-12,Anadolu Tedarik A.Ş.,Elektronik,Ege,288,621.77,179069.76,3,Zamanında
+SIP-0046,2026-03-13,Anadolu Tedarik A.Ş.,Yedek Parça,Karadeniz,73,314.72,22974.56,7,Zamanında
+SIP-0047,2026-03-13,Ege Lojistik Ltd.,Kimyasal,Karadeniz,52,85.41,4441.32,12,Zamanında
+SIP-0048,2026-03-14,Anadolu Tedarik A.Ş.,Ambalaj,Marmara,3110,11.31,35174.10,7,Zamanında
+SIP-0049,2026-03-16,Marmara Endüstri,Hammadde,İç Anadolu,307,24.40,7490.80,12,Gecikmiş
+SIP-0050,2026-03-16,Akdeniz Ticaret,Yedek Parça,Ege,104,329.78,34297.12,7,Zamanında
+SIP-0051,2026-03-17,Akdeniz Ticaret,Ambalaj,Karadeniz,2299,8.14,18713.86,14,Gecikmiş
+SIP-0052,2026-03-17,Akdeniz Ticaret,Kimyasal,Ege,146,52.85,7716.10,7,Zamanında
+SIP-0053,2026-03-19,Anadolu Tedarik A.Ş.,Ambalaj,Karadeniz,926,12.00,11112.00,5,Zamanında
+SIP-0054,2026-03-19,Akdeniz Ticaret,Hammadde,Marmara,1020,43.21,44074.20,10,Zamanında
+SIP-0055,2026-03-23,Trakya Paketleme,Hammadde,Marmara,1958,46.96,91947.68,6,Zamanında
+SIP-0056,2026-03-23,Anadolu Tedarik A.Ş.,Hammadde,Ege,1330,19.88,26440.40,8,Gecikmiş
+SIP-0057,2026-03-25,Karadeniz Hammadde,Yedek Parça,Marmara,165,376.24,62079.60,11,Zamanında
+SIP-0058,2026-03-26,Ege Lojistik Ltd.,Yedek Parça,Marmara,123,394.75,48554.25,8,Zamanında
+SIP-0059,2026-03-27,Anadolu Tedarik A.Ş.,Hammadde,Karadeniz,762,23.14,17632.68,5,Zamanında
+SIP-0060,2026-03-28,Akdeniz Ticaret,Kimyasal,Karadeniz,87,112.12,9754.44,9,Zamanında
+SIP-0061,2026-03-29,Anadolu Tedarik A.Ş.,Ambalaj,İç Anadolu,3797,11.43,43399.71,8,Zamanında
+SIP-0062,2026-03-30,Trakya Paketleme,Hammadde,Akdeniz,1167,31.77,37075.59,4,Zamanında
+SIP-0063,2026-03-31,Akdeniz Ticaret,Yedek Parça,Akdeniz,147,357.79,52595.13,9,Zamanında
+SIP-0064,2026-03-31,Anadolu Tedarik A.Ş.,Ambalaj,Karadeniz,4813,2.38,11454.94,5,Zamanında
+SIP-0065,2026-04-01,Trakya Paketleme,Elektronik,Marmara,41,422.71,17331.11,4,Zamanında
+SIP-0066,2026-04-01,Akdeniz Ticaret,Elektronik,Akdeniz,174,275.46,47930.04,16,Gecikmiş
+SIP-0067,2026-04-01,Anadolu Tedarik A.Ş.,Ambalaj,Marmara,3912,7.84,30670.08,4,Zamanında
+SIP-0068,2026-04-02,Karadeniz Hammadde,Ambalaj,Karadeniz,4849,5.27,25554.23,10,Zamanında
+SIP-0069,2026-04-02,Karadeniz Hammadde,Kimyasal,Ege,756,116.31,87930.36,10,Zamanında
+SIP-0070,2026-04-02,Ege Lojistik Ltd.,Ambalaj,Ege,3334,10.90,36340.60,6,Zamanında
+SIP-0071,2026-04-03,Anadolu Tedarik A.Ş.,Elektronik,Ege,99,642.55,63612.45,6,Zamanında
+SIP-0072,2026-04-06,Akdeniz Ticaret,Kimyasal,Akdeniz,445,200.48,89213.60,14,Gecikmiş
+SIP-0073,2026-04-06,Akdeniz Ticaret,Yedek Parça,İç Anadolu,161,191.36,30808.96,11,Zamanında
+SIP-0074,2026-04-08,Ege Lojistik Ltd.,Elektronik,Karadeniz,67,602.79,40386.93,7,Zamanında
+SIP-0075,2026-04-09,Ege Lojistik Ltd.,Hammadde,Marmara,1286,45.74,58821.64,9,Zamanında
+SIP-0076,2026-04-09,Akdeniz Ticaret,Ambalaj,Ege,4723,3.13,14782.99,10,Zamanında
+SIP-0077,2026-04-10,Akdeniz Ticaret,Yedek Parça,Ege,134,141.07,18903.38,10,Zamanında
+SIP-0078,2026-04-10,Ege Lojistik Ltd.,Ambalaj,Akdeniz,3509,10.68,37476.12,9,Zamanında
+SIP-0079,2026-04-10,Marmara Endüstri,Kimyasal,Ege,666,138.22,92054.52,7,Kısmi Teslim
+SIP-0080,2026-04-11,Marmara Endüstri,Ambalaj,Akdeniz,526,12.12,6375.12,8,Zamanında
+SIP-0081,2026-04-14,Trakya Paketleme,Yedek Parça,Ege,70,108.39,7587.30,5,Kısmi Teslim
+SIP-0082,2026-04-15,Trakya Paketleme,Hammadde,Marmara,1447,57.96,83868.12,6,Zamanında
+SIP-0083,2026-04-15,Trakya Paketleme,Yedek Parça,Akdeniz,194,85.12,16513.28,4,Zamanında
+SIP-0084,2026-04-16,Marmara Endüstri,Elektronik,Marmara,255,579.78,147843.90,8,Zamanında
+SIP-0085,2026-04-16,Marmara Endüstri,Yedek Parça,İç Anadolu,15,514.81,7722.15,8,Zamanında
+SIP-0086,2026-04-20,Karadeniz Hammadde,Elektronik,Marmara,235,743.75,174781.25,12,Zamanında
+SIP-0087,2026-04-20,Trakya Paketleme,Elektronik,Karadeniz,215,789.82,169811.30,6,Zamanında
+SIP-0088,2026-04-20,Trakya Paketleme,Ambalaj,Akdeniz,2760,4.02,11095.20,4,Kısmi Teslim
+SIP-0089,2026-04-20,Marmara Endüstri,Elektronik,Akdeniz,33,637.08,21023.64,8,Zamanında
+SIP-0090,2026-04-21,Ege Lojistik Ltd.,Ambalaj,Karadeniz,504,7.59,3825.36,7,Zamanında
+SIP-0091,2026-04-21,Ege Lojistik Ltd.,Elektronik,Akdeniz,54,207.50,11205.00,15,Gecikmiş
+SIP-0092,2026-04-22,Ege Lojistik Ltd.,Hammadde,Karadeniz,1856,69.99,129901.44,10,Zamanında
+SIP-0093,2026-04-23,Karadeniz Hammadde,Ambalaj,Ege,1071,4.62,4948.02,9,Zamanında
+SIP-0094,2026-04-27,Trakya Paketleme,Elektronik,Akdeniz,181,872.17,157862.77,5,Zamanında
+SIP-0095,2026-04-28,Trakya Paketleme,Elektronik,Akdeniz,284,503.27,142928.68,12,Gecikmiş
+SIP-0096,2026-04-28,Ege Lojistik Ltd.,Elektronik,Marmara,74,697.12,51586.88,9,Zamanında
+SIP-0097,2026-04-28,Trakya Paketleme,Kimyasal,Karadeniz,470,183.80,86386.00,5,Zamanında
+SIP-0098,2026-04-28,Karadeniz Hammadde,Elektronik,İç Anadolu,167,198.99,33231.33,6,Zamanında
+SIP-0099,2026-04-29,Karadeniz Hammadde,Kimyasal,Marmara,723,190.59,137796.57,10,Zamanında
+SIP-0100,2026-04-29,Marmara Endüstri,Hammadde,Karadeniz,1142,72.54,82840.68,8,Zamanında
+SIP-0101,2026-04-29,Karadeniz Hammadde,Kimyasal,Ege,81,63.73,5162.13,9,Zamanında
+SIP-0102,2026-04-30,Marmara Endüstri,Hammadde,İç Anadolu,644,46.01,29630.44,18,Gecikmiş
+SIP-0103,2026-05-03,Trakya Paketleme,Kimyasal,Akdeniz,720,59.56,42883.20,3,Zamanında
+SIP-0104,2026-05-03,Akdeniz Ticaret,Elektronik,Akdeniz,276,672.73,185673.48,9,Zamanında
+SIP-0105,2026-05-04,Akdeniz Ticaret,Yedek Parça,Marmara,182,319.72,58189.04,10,Zamanında
+SIP-0106,2026-05-04,Marmara Endüstri,Hammadde,İç Anadolu,1677,37.89,63541.53,9,Zamanında
+SIP-0107,2026-05-07,Karadeniz Hammadde,Hammadde,Karadeniz,589,30.61,18029.29,9,Zamanında
+SIP-0108,2026-05-07,Trakya Paketleme,Hammadde,İç Anadolu,887,36.85,32685.95,4,Zamanında
+SIP-0109,2026-05-07,Trakya Paketleme,Ambalaj,Marmara,2460,9.37,23050.20,7,Zamanında
+SIP-0110,2026-05-07,Akdeniz Ticaret,Yedek Parça,İç Anadolu,157,228.97,35948.29,8,Kısmi Teslim
+SIP-0111,2026-05-07,Marmara Endüstri,Kimyasal,Karadeniz,590,121.13,71466.70,8,Zamanında
+SIP-0112,2026-05-11,Ege Lojistik Ltd.,Kimyasal,İç Anadolu,583,120.87,70467.21,7,Zamanında
+SIP-0113,2026-05-11,Karadeniz Hammadde,Elektronik,Karadeniz,185,774.24,143234.40,14,Gecikmiş
+SIP-0114,2026-05-12,Marmara Endüstri,Kimyasal,Akdeniz,334,184.13,61499.42,8,Zamanında
+SIP-0115,2026-05-13,Karadeniz Hammadde,Yedek Parça,Marmara,125,446.18,55772.50,7,Zamanında
+SIP-0116,2026-05-14,Karadeniz Hammadde,Hammadde,Marmara,1134,22.96,26036.64,12,Zamanında
+SIP-0117,2026-05-14,Karadeniz Hammadde,Hammadde,Marmara,238,30.69,7304.22,10,Zamanında
+SIP-0118,2026-05-14,Marmara Endüstri,Elektronik,İç Anadolu,183,735.68,134629.44,6,Zamanında
+SIP-0119,2026-05-15,Anadolu Tedarik A.Ş.,Elektronik,Ege,258,674.60,174046.80,6,Zamanında
+SIP-0120,2026-05-15,Trakya Paketleme,Ambalaj,İç Anadolu,1986,12.33,24487.38,2,Zamanında
+SIP-0121,2026-05-15,Akdeniz Ticaret,Ambalaj,Marmara,1817,4.87,8848.79,11,Zamanında
+SIP-0122,2026-05-15,Trakya Paketleme,Ambalaj,İç Anadolu,2577,9.76,25151.52,5,Zamanında
+SIP-0123,2026-05-19,Anadolu Tedarik A.Ş.,Yedek Parça,Karadeniz,42,116.49,4892.58,4,Zamanında
+SIP-0124,2026-05-20,Ege Lojistik Ltd.,Elektronik,Akdeniz,249,707.46,176157.54,9,Zamanında
+SIP-0125,2026-05-20,Ege Lojistik Ltd.,Ambalaj,Akdeniz,3327,5.06,16834.62,8,Zamanında
+SIP-0126,2026-05-20,Akdeniz Ticaret,Hammadde,Marmara,859,50.18,43104.62,15,Gecikmiş
+SIP-0127,2026-05-21,Anadolu Tedarik A.Ş.,Elektronik,Akdeniz,185,602.79,111516.15,7,Zamanında
+SIP-0128,2026-05-21,Karadeniz Hammadde,Hammadde,Akdeniz,1506,30.56,46023.36,9,Zamanında
+SIP-0129,2026-05-22,Marmara Endüstri,Ambalaj,Marmara,3721,7.41,27572.61,5,Zamanında
+SIP-0130,2026-05-25,Anadolu Tedarik A.Ş.,Hammadde,İç Anadolu,1915,53.15,101782.25,4,Zamanında
+SIP-0131,2026-05-26,Karadeniz Hammadde,Ambalaj,Marmara,2065,4.72,9746.80,9,Zamanında
+SIP-0132,2026-05-28,Ege Lojistik Ltd.,Ambalaj,İç Anadolu,3673,5.78,21229.94,7,Zamanında
+SIP-0133,2026-05-29,Karadeniz Hammadde,Elektronik,Akdeniz,278,455.95,126754.10,16,Gecikmiş
+SIP-0134,2026-05-29,Marmara Endüstri,Hammadde,Akdeniz,1427,19.49,27812.23,8,Zamanında
+SIP-0135,2026-05-29,Anadolu Tedarik A.Ş.,Kimyasal,Ege,358,61.93,22170.94,4,Zamanında
+SIP-0136,2026-06-01,Trakya Paketleme,Yedek Parça,Ege,103,257.26,26497.78,5,Zamanında
+SIP-0137,2026-06-01,Trakya Paketleme,Hammadde,Ege,1712,47.87,81953.44,6,Zamanında
+SIP-0138,2026-06-02,Anadolu Tedarik A.Ş.,Yedek Parça,Ege,52,238.82,12418.64,5,Zamanında
+SIP-0139,2026-06-02,Marmara Endüstri,Ambalaj,İç Anadolu,1847,4.80,8865.60,8,Zamanında
+SIP-0140,2026-06-03,Anadolu Tedarik A.Ş.,Ambalaj,Ege,4021,9.86,39647.06,5,Zamanında
+SIP-0141,2026-06-04,Anadolu Tedarik A.Ş.,Elektronik,Marmara,294,713.16,209669.04,5,Zamanında
+SIP-0142,2026-06-04,Ege Lojistik Ltd.,Ambalaj,Akdeniz,1925,7.75,14918.75,7,Zamanında
+SIP-0143,2026-06-04,Marmara Endüstri,Kimyasal,İç Anadolu,363,89.52,32495.76,8,Kısmi Teslim
+SIP-0144,2026-06-04,Karadeniz Hammadde,Hammadde,Ege,1086,46.26,50238.36,11,Zamanında
+SIP-0145,2026-06-08,Marmara Endüstri,Yedek Parça,Ege,181,393.88,71292.28,7,Zamanında
+SIP-0146,2026-06-08,Anadolu Tedarik A.Ş.,Hammadde,Ege,1236,32.24,39848.64,6,Zamanında
+SIP-0147,2026-06-08,Anadolu Tedarik A.Ş.,Hammadde,Akdeniz,477,71.35,34033.95,6,Zamanında
+SIP-0148,2026-06-09,Akdeniz Ticaret,Kimyasal,Karadeniz,182,138.14,25141.48,17,Gecikmiş
+SIP-0149,2026-06-10,Akdeniz Ticaret,Ambalaj,Ege,1122,7.29,8179.38,11,Zamanında
+SIP-0150,2026-06-12,Karadeniz Hammadde,Ambalaj,Ege,1633,6.88,11235.04,14,Gecikmiş
+SIP-0151,2026-06-14,Anadolu Tedarik A.Ş.,Hammadde,Ege,676,47.85,32346.60,11,Gecikmiş
+SIP-0152,2026-06-16,Karadeniz Hammadde,Hammadde,Karadeniz,979,42.95,42048.05,11,Zamanında
+SIP-0153,2026-06-17,Ege Lojistik Ltd.,Ambalaj,İç Anadolu,4070,6.51,26495.70,6,Zamanında
+SIP-0154,2026-06-18,Anadolu Tedarik A.Ş.,Ambalaj,Karadeniz,2092,9.18,19204.56,5,Zamanında
+SIP-0155,2026-06-18,Akdeniz Ticaret,Hammadde,Karadeniz,433,34.44,14912.52,12,Zamanında
+SIP-0156,2026-06-19,Karadeniz Hammadde,Kimyasal,Akdeniz,496,182.97,90753.12,8,Kısmi Teslim
+SIP-0157,2026-06-22,Anadolu Tedarik A.Ş.,Kimyasal,Ege,738,95.88,70759.44,12,Gecikmiş
+SIP-0158,2026-06-22,Karadeniz Hammadde,Ambalaj,İç Anadolu,3620,11.59,41955.80,7,Zamanında
+SIP-0159,2026-06-24,Marmara Endüstri,Elektronik,İç Anadolu,279,215.93,60244.47,6,Zamanında
+SIP-0160,2026-06-25,Anadolu Tedarik A.Ş.,Kimyasal,Ege,278,65.12,18103.36,8,Zamanında
+SIP-0161,2026-06-25,Karadeniz Hammadde,Ambalaj,Marmara,4594,7.73,35511.62,11,Kısmi Teslim
+SIP-0162,2026-06-25,Marmara Endüstri,Ambalaj,Marmara,2146,10.42,22361.32,7,Zamanında
+SIP-0163,2026-06-26,Akdeniz Ticaret,Ambalaj,Karadeniz,3322,3.02,10032.44,9,Zamanında
+SIP-0164,2026-06-26,Marmara Endüstri,Ambalaj,Akdeniz,2936,6.86,20140.96,7,Zamanında
+SIP-0165,2026-06-28,Anadolu Tedarik A.Ş.,Ambalaj,Karadeniz,3666,4.84,17743.44,8,Zamanında
+SIP-0166,2026-06-29,Anadolu Tedarik A.Ş.,Yedek Parça,Ege,15,333.39,5000.85,8,Zamanında
+SIP-0167,2026-06-29,Marmara Endüstri,Yedek Parça,Karadeniz,107,503.81,53907.67,7,Zamanında
+SIP-0168,2026-06-29,Ege Lojistik Ltd.,Yedek Parça,Marmara,198,134.77,26684.46,10,Gecikmiş
+SIP-0169,2026-06-30,Akdeniz Ticaret,Yedek Parça,Akdeniz,46,162.42,7471.32,10,Kısmi Teslim
+SIP-0170,2026-06-30,Anadolu Tedarik A.Ş.,Elektronik,Karadeniz,173,848.82,146845.86,4,Kısmi Teslim
+SIP-0171,2026-06-30,Karadeniz Hammadde,Yedek Parça,İç Anadolu,30,306.91,9207.30,10,Zamanında
+SIP-0172,2026-07-06,Karadeniz Hammadde,Ambalaj,Ege,1194,4.69,5599.86,8,Zamanında
+SIP-0173,2026-07-07,Marmara Endüstri,Ambalaj,Marmara,1627,7.66,12462.82,10,Zamanında
+SIP-0174,2026-07-09,Ege Lojistik Ltd.,Hammadde,Karadeniz,822,19.51,16037.22,8,Zamanında
+SIP-0175,2026-07-09,Akdeniz Ticaret,Hammadde,Ege,790,56.08,44303.20,10,Zamanında
+SIP-0176,2026-07-10,Ege Lojistik Ltd.,Ambalaj,İç Anadolu,1713,5.98,10243.74,9,Zamanında
+SIP-0177,2026-07-10,Trakya Paketleme,Hammadde,Akdeniz,1034,37.60,38878.40,5,Zamanında
+SIP-0178,2026-07-10,Anadolu Tedarik A.Ş.,Hammadde,İç Anadolu,895,37.82,33848.90,6,Zamanında
+SIP-0179,2026-07-13,Marmara Endüstri,Hammadde,Ege,1763,38.72,68263.36,10,Gecikmiş
+SIP-0180,2026-07-13,Akdeniz Ticaret,Hammadde,Marmara,834,47.22,39381.48,11,Zamanında
+SIP-0181,2026-07-14,Marmara Endüstri,Elektronik,Karadeniz,117,224.92,26315.64,6,Zamanında
+SIP-0182,2026-07-14,Karadeniz Hammadde,Elektronik,İç Anadolu,56,434.37,24324.72,9,Zamanında
+SIP-0183,2026-07-14,Ege Lojistik Ltd.,Yedek Parça,İç Anadolu,187,440.09,82296.83,8,Zamanında
+SIP-0184,2026-07-16,Karadeniz Hammadde,Ambalaj,İç Anadolu,1790,8.84,15823.60,8,Zamanında
+SIP-0185,2026-07-17,Trakya Paketleme,Ambalaj,Ege,4179,8.13,33975.27,5,Zamanında
+SIP-0186,2026-07-21,Akdeniz Ticaret,Yedek Parça,Karadeniz,146,66.12,9653.52,11,Zamanında
+SIP-0187,2026-07-21,Trakya Paketleme,Ambalaj,Akdeniz,755,2.69,2030.95,3,Zamanında
+SIP-0188,2026-07-21,Marmara Endüstri,Elektronik,Akdeniz,160,661.08,105772.80,7,Zamanında
+SIP-0189,2026-07-21,Trakya Paketleme,Elektronik,Karadeniz,262,359.62,94220.44,3,Zamanında
+SIP-0190,2026-07-22,Anadolu Tedarik A.Ş.,Yedek Parça,İç Anadolu,116,137.28,15924.48,8,Zamanında
+SIP-0191,2026-07-25,Karadeniz Hammadde,Kimyasal,Karadeniz,59,58.33,3441.47,7,Zamanında
+SIP-0192,2026-07-27,Akdeniz Ticaret,Yedek Parça,Marmara,123,122.54,15072.42,8,Kısmi Teslim
+SIP-0193,2026-07-27,Marmara Endüstri,Kimyasal,Akdeniz,127,68.60,8712.20,5,Zamanında
+SIP-0194,2026-07-28,Anadolu Tedarik A.Ş.,Kimyasal,Ege,368,59.46,21881.28,10,Gecikmiş
+SIP-0195,2026-07-30,Anadolu Tedarik A.Ş.,Hammadde,Akdeniz,1150,64.04,73646.00,7,Zamanında
+SIP-0196,2026-08-03,Trakya Paketleme,Kimyasal,Marmara,692,161.03,111432.76,4,Zamanında
+SIP-0197,2026-08-03,Akdeniz Ticaret,Elektronik,Marmara,274,751.41,205886.34,8,Zamanında
+SIP-0198,2026-08-06,Akdeniz Ticaret,Yedek Parça,Ege,70,405.19,28363.30,13,Zamanında
+SIP-0199,2026-08-06,Karadeniz Hammadde,Elektronik,Akdeniz,277,306.68,84950.36,9,Zamanında
+SIP-0200,2026-08-06,Anadolu Tedarik A.Ş.,Hammadde,Ege,1794,56.94,102150.36,8,Gecikmiş
+SIP-0201,2026-08-11,Ege Lojistik Ltd.,Hammadde,Karadeniz,1983,37.87,75096.21,9,Zamanında
+SIP-0202,2026-08-13,Anadolu Tedarik A.Ş.,Hammadde,Ege,1298,44.16,57319.68,6,Zamanında
+SIP-0203,2026-08-13,Anadolu Tedarik A.Ş.,Elektronik,Marmara,87,161.15,14020.05,6,Zamanında
+SIP-0204,2026-08-13,Trakya Paketleme,Ambalaj,Akdeniz,1978,7.68,15191.04,5,Zamanında
+SIP-0205,2026-08-14,Akdeniz Ticaret,Hammadde,Ege,1361,66.21,90111.81,8,Kısmi Teslim
+SIP-0206,2026-08-18,Ege Lojistik Ltd.,Kimyasal,Akdeniz,762,119.83,91310.46,8,Kısmi Teslim
+SIP-0207,2026-08-20,Ege Lojistik Ltd.,Hammadde,Ege,1016,34.52,35072.32,11,Zamanında
+SIP-0208,2026-08-24,Karadeniz Hammadde,Yedek Parça,İç Anadolu,157,140.27,22022.39,17,Gecikmiş
+SIP-0209,2026-08-24,Trakya Paketleme,Hammadde,Ege,1702,50.38,85746.76,7,Zamanında
+SIP-0210,2026-08-27,Ege Lojistik Ltd.,Kimyasal,Ege,82,135.91,11144.62,8,Zamanında
+SIP-0211,2026-08-29,Akdeniz Ticaret,Hammadde,Ege,1514,52.04,78788.56,10,Zamanında
+SIP-0212,2026-09-02,Ege Lojistik Ltd.,Elektronik,Akdeniz,52,416.65,21665.80,7,Zamanında
+SIP-0213,2026-09-02,Anadolu Tedarik A.Ş.,Hammadde,Marmara,999,32.24,32207.76,6,Zamanında
+SIP-0214,2026-09-02,Akdeniz Ticaret,Ambalaj,Karadeniz,993,7.45,7397.85,14,Gecikmiş
+SIP-0215,2026-09-02,Karadeniz Hammadde,Yedek Parça,İç Anadolu,157,75.37,11833.09,9,Zamanında
+SIP-0216,2026-09-02,Trakya Paketleme,Elektronik,Akdeniz,207,224.26,46421.82,4,Kısmi Teslim
+SIP-0217,2026-09-03,Akdeniz Ticaret,Hammadde,Marmara,1375,30.80,42350.00,9,Zamanında
+SIP-0218,2026-09-03,Trakya Paketleme,Hammadde,Akdeniz,678,72.76,49331.28,4,Zamanında
+SIP-0219,2026-09-03,Ege Lojistik Ltd.,Kimyasal,Karadeniz,788,91.47,72078.36,8,Zamanında
+SIP-0220,2026-09-04,Akdeniz Ticaret,Yedek Parça,Karadeniz,196,334.46,65554.16,10,Zamanında
+SIP-0221,2026-09-04,Anadolu Tedarik A.Ş.,Elektronik,İç Anadolu,72,683.55,49215.60,7,Zamanında
+SIP-0222,2026-09-05,Marmara Endüstri,Hammadde,Marmara,1720,53.51,92037.20,7,Zamanında
+SIP-0223,2026-09-07,Ege Lojistik Ltd.,Ambalaj,Ege,4089,9.82,40153.98,7,Zamanında
+SIP-0224,2026-09-08,Akdeniz Ticaret,Yedek Parça,Marmara,168,82.90,13927.20,8,Zamanında
+SIP-0225,2026-09-08,Akdeniz Ticaret,Ambalaj,Akdeniz,3766,5.67,21353.22,11,Zamanında
+SIP-0226,2026-09-10,Trakya Paketleme,Ambalaj,Marmara,4118,11.80,48592.40,5,Zamanında
+SIP-0227,2026-09-11,Marmara Endüstri,Elektronik,Marmara,91,193.21,17582.11,14,Gecikmiş
+SIP-0228,2026-09-15,Karadeniz Hammadde,Ambalaj,Marmara,2960,6.86,20305.60,8,Zamanında
+SIP-0229,2026-09-15,Trakya Paketleme,Elektronik,Ege,237,243.16,57628.92,3,Zamanında
+SIP-0230,2026-09-15,Anadolu Tedarik A.Ş.,Kimyasal,Marmara,133,48.18,6407.94,5,Zamanında
+SIP-0231,2026-09-17,Marmara Endüstri,Yedek Parça,Ege,128,326.27,41762.56,6,Zamanında
+SIP-0232,2026-09-19,Ege Lojistik Ltd.,Kimyasal,İç Anadolu,385,58.52,22530.20,13,Gecikmiş
+SIP-0233,2026-09-22,Karadeniz Hammadde,Elektronik,Akdeniz,99,283.65,28081.35,7,Kısmi Teslim
+SIP-0234,2026-09-24,Anadolu Tedarik A.Ş.,Yedek Parça,Ege,184,169.79,31241.36,6,Kısmi Teslim
+SIP-0235,2026-09-24,Marmara Endüstri,Ambalaj,Karadeniz,3774,9.23,34834.02,13,Gecikmiş
+SIP-0236,2026-09-25,Karadeniz Hammadde,Elektronik,Marmara,119,361.02,42961.38,8,Zamanında
+SIP-0237,2026-09-25,Ege Lojistik Ltd.,Kimyasal,Karadeniz,625,56.16,35100.00,8,Zamanında
+SIP-0238,2026-09-28,Marmara Endüstri,Hammadde,Ege,1998,54.47,108831.06,15,Gecikmiş
+SIP-0239,2026-09-29,Karadeniz Hammadde,Hammadde,Karadeniz,624,51.52,32148.48,9,Zamanında
+SIP-0240,2026-09-29,Trakya Paketleme,Elektronik,Ege,69,458.79,31656.51,5,Zamanında
