@@ -12,7 +12,7 @@ Bu dosya, depodaki skill'lerin envanteridir: hangi skill nerede, ne işe yarar, 
 
 | Skill | Yol | Sahibi | Ne işe yarar | Nasıl kullanılır |
 |-------|-----|--------|--------------|------------------|
-| pm-rapor | skills/pm-rapor/SKILL.md | İrem Deneri (PM) | Issue ve devir yorumlarından haftalık sprint raporunu üretir (reports/report-w03.md) | Ajana: "skills/pm-rapor/SKILL.md talimatını izleyerek raporu üret" |
+| pm-rapor | skills/pm-rapor/SKILL.md | İrem Deneri (PM) | Issue ve devir yorumlarından haftalık sprint raporunu üretir (reports/report-w04.md) | Ajana: "skills/pm-rapor/SKILL.md talimatını izleyerek raporu üret" |
 | be-veri | skills/be-veri/SKILL.md | Ceren Gözel (BE) | Sabit tohumla tedarik verisini üretir (data/tedarik_siparisleri.csv, 240 satır, 10 alan) | `python src/veri_uret.py` |
 | dq-analiz | skills/dq-analiz/SKILL.md | Serra Erdem (DQ) | Veriden 6 metrik hesaplar, yorum + 3 gözlem + 1 öneri yazar (docs/analiz-g1.md) | `python src/analiz_g1.py` |
 | fe-gorsel | skills/fe-gorsel/SKILL.md | Baki Korkmaz (FE) | Hazır: CSV'den zaman serisi ve kırılım grafikleri üretir (visuals/) | `python src/grafik_uret.py` |
