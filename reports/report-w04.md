@@ -31,14 +31,13 @@
 - `tests/test-cases.md` altındaki 7 senaryo (T1–T7), `python test_calistir.py` ile `data/tedarik_siparisleri.csv` üzerinde 27.10.2026 tarihinde koşturulmuş ve `tests/test-log.md` dosyasına işlenmiştir.
 - İlk koşuda T1 (dosya açılabiliyor mu) geçmiş, T2–T7 kalmıştır. Neden: repodaki veri dosyası (4 satır, 3 sütun) test senaryolarının yazıldığı veri setiyle (240 satır, 10 sütun) aynı değildir.
 - Bu bulgu için DQ tarafından Hata Issue'su (#22) açılmıştır. Ayrıca `teslim_suresi_gun` için üst sınır eklenmesini öneren Geliştirme Issue'su (#23) açılmıştır.
-- Veri dosyası düzeltildikten sonra T2–T7'nin yeniden koşturulması ve `tests/test-log.md`'nin güncellenmesi gerekmektedir.
+- Veri dosyası 27.10.2026 21.46da orijinal 240 satırlık haliyle geri yüklenmiştir.(commit 1745296). Testler 'python tests/test_calistir.py' ile yeniden koşturulmuş, (commit b9d01). #22 kapatılmıştır.
 
 ---
 
 ## 4. Açık Konular
 
 - #23 (Geliştirme): `teslim_suresi_gun` için üst sınır eklenmeli. Durum: açık.
-- Veri dosyası düzeltmesi sonrası testler tekrar koşulacak ve test logu güncellenecek.
 - DQ'nun nihai veri üzerinde `docs/veri-sozlugu-g1.md` şema onayı ve G1-analiz kapanış yorumu, testler geçtikten sonra yapılacak.
 
 ---
