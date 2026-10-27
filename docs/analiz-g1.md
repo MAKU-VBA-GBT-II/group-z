@@ -1,6 +1,6 @@
 # Analiz — Görev 1 (Tedarik)
 
-**Veri:** data/tedarik_siparisleri.csv (commit 19df2d1)
+**Veri:** data/tedarik_siparisleri.csv (commit 1745296)
 
 **Hazırlayan:** Serra Erdem (DQ) · **Kaynak:** `data/tedarik_siparisleri.csv` (240 sipariş, 2026-01-01 – 2026-09-30) · **Betik:** `src/analiz_g1.py`
 
