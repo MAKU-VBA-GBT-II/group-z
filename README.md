@@ -1,4 +1,4 @@
-# <Şirket Adı> — Grup Z
+# Tedarik — Grup Z
 
 VBA II (Veri Bilimi ve Analitik) dersi kapsamındaki **veri şirketi simülasyonu** çalışma deposu.
 
@@ -6,7 +6,7 @@ VBA II (Veri Bilimi ve Analitik) dersi kapsamındaki **veri şirketi simülasyon
 
 | Alan | Değer |
 |---|---|
-| Şirket adı | <Hafta 1'de seçilecek> |
+| Tedarik | <Hafta 1'de seçilecek> |
 | Sektör | Tedarik |
 | Teknoloji kararı | <dil + kütüphaneler, örn. "Python · pandas · matplotlib"> |
 
