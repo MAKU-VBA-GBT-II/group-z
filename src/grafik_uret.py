@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
 
 # Gerçek CSV dosyasını ve sütun adlarını kullanıyoruz
 df = pd.read_csv('data/tedarik_siparisleri.csv')
@@ -29,5 +30,9 @@ plt.title('Ürün Kategorisine Göre Toplam Tutar')
 plt.xlabel('Kategoriler')
 plt.ylabel('Toplam Tutar (TL)')
 plt.grid(axis='y')
+
+# Arkadaşın eleştirisindeki TL eksenine binlik ayraç (FuncFormatter) formatı
+plt.gca().yaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: f"{x:,.0f} TL"))
+
 plt.savefig('visuals/kirilim.png')
 plt.close()

@@ -1,0 +1,15 @@
+---
+name: fe-gorsel
+description: Tedarik siparişleri verisini okuyarak zaman serisi ve kırılım grafikleri üreten ön yüz görselleştirme skill'i.
+---
+
+## Girdi Dosyası
+- `data/tedarik_siparisleri.csv`
+
+## Çıktı Yolları
+- `visuals/zaman_serisi.png`
+- `visuals/kirilim.png`
+
+## Çalıştırma Komutu
+```bash
+python src/grafik_uret.py
