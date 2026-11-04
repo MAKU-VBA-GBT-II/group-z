@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
+import seaborn as sns
 
 # Gerçek CSV dosyasını ve sütun adlarını kullanıyoruz
 df = pd.read_csv('data/tedarik_siparisleri.csv')
@@ -35,4 +36,14 @@ plt.grid(axis='y')
 plt.gca().yaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: f"{x:,.0f} TL"))
 
 plt.savefig('visuals/kirilim.png')
+plt.close()
+
+# 3. Grafik: Dağılım / Frekans (Histogram)
+plt.figure(figsize=(8, 5))
+sns.histplot(df['toplam_tutar_tl'], bins=20, kde=True, color='teal')
+plt.title('Toplam Tutar Dagilimi ve Frekans')
+plt.xlabel('Toplam Tutar (TL)')
+plt.ylabel('Frekans (Adet)')
+plt.grid(True)
+plt.savefig('visuals/dagilim.png')
 plt.close()
