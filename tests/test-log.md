@@ -1,21 +1,18 @@
-# Test Log — Grup Z (Hafta 4)
+# Test Senaryoları — Görev 2 (Tedarik)
 
-Çalıştırma: 27.10.2026
-Komut (repo kökünden): `python tests/test_calistir.py` (test-cases.md'deki T1–T7 kontrolleri)
-Veri dosyası: `data/tedarik_siparisleri.csv` — son değiştiren commit `1745296`, 240 satır × 10 sütun
+Hazırlayan: Serra Erdem (DQ) · Test edilen dosya: `data/tedarik_siparisleri.csv` · Üretici: `src/veri_uret.py` · Şema: `docs/veri-sozlugu.md`
 
-| No | Senaryo | Beklenen | Gerçekleşen | Sonuç |
-|----|---------|----------|-------------|-------|
-| T1 | Dosya okunabiliyor mu | data/tedarik_siparisleri.csv açılır | Dosya açıldı, 240 kayıt satırı okundu | GEÇTİ |
-| T2 | Satır sayısı | 240 satır, SIP-0001…SIP-0240 benzersiz | 240 satır, 240 benzersiz siparis_id | GEÇTİ |
-| T3 | Sütun şeması | 10 sütun (siparis_id … teslimat_durumu) | 10 sütun, sıra beklenenle aynı | GEÇTİ |
-| T4 | Tarih biçimi/aralığı | YYYY-MM-DD, 2026-01-01…2026-09-30 | Aralık 2026-01-03 – 2026-09-29 | GEÇTİ |
-| T5 | Tip ve aralıklar | miktar ≥ 10, birim_fiyat > 0, teslim_suresi_gun 2-18 | Üç kural da sağlanıyor | GEÇTİ |
-| T6 | Tutarlılık | toplam_tutar_tl = miktar × birim_fiyat_tl | En büyük fark 0,0000 TL; boş değer 0 | GEÇTİ |
-| T7 | Kategori değerleri | 6 tedarikçi, 5 kategori, 5 bölge, 3 teslimat durumu | 6 / 5 / 5 / 3 | GEÇTİ |
+T1–T7 sonuçları `tests/test-log.md` içindeki 27.10.2026 çalıştırmasından alınmıştır (veri dosyası commit `1745296`, 240 satır × 10 sütun). T8–T10 parametre senaryolarıdır; çalıştırıldıkça doldurulur.
 
-## Not
-İlk çalıştırmada (commit a48e86a sonrası) `data/tedarik_siparisleri.csv` 4 satırlık,
-3 sütunlu bir dosyayla değiştirilmişti (commit e08f9bb) ve T2–T7 KALDI. Dosya
-27.10.2026 21:46'da orijinal 240 satırlık haliyle geri yüklendi (commit 1745296);
-bu günlükteki sonuçlar geri yüklenen dosyayla elde edilmiştir.
+| No | Kategori | Senaryo | Beklenen sonuç | Gerçekleşen sonuç |
+|----|----------|---------|----------------|-------------------|
+| T1 | Dosya var mı | `data/tedarik_siparisleri.csv` repoda mevcut ve UTF-8 olarak açılabiliyor mu? | Dosya vardır, hata vermeden okunur, ayraç `,` ve ondalık ayraç `.` | Geçti: dosya açıldı, 240 kayıt satırı okundu |
+| T2 | Satır sayısı | Başlık satırı hariç kayıt sayısı sayılır. | 240 satır; `siparis_id` değerleri benzersiz, `SIP-0001` … `SIP-0240` | Geçti: 240 satır, 240 benzersiz `siparis_id` |
+| T3 | Sütunlar | Başlık satırı kontrol edilir. | 10 sütun, bu sırayla: `siparis_id, siparis_tarihi, tedarikci, urun_kategorisi, depo_bolgesi, miktar, birim_fiyat_tl, toplam_tutar_tl, teslim_suresi_gun, teslimat_durumu` | Geçti: 10 sütun, sıra beklenenle aynı |
+| T4 | Tipler / aralıklar | `siparis_tarihi` biçimi ve aralığı kontrol edilir. | Tüm değerler `YYYY-MM-DD` biçiminde ve 2026-01-01 – 2026-09-30 arasında | Geçti: 2026-01-03 – 2026-09-29 |
+| T5 | Tipler / aralıklar | `miktar`, `birim_fiyat_tl`, `teslim_suresi_gun` kontrol edilir. | `miktar` tam sayı ve ≥ 10; `birim_fiyat_tl` > 0 (2 ondalık); `teslim_suresi_gun` tam sayı ve 2–18 arası | Geçti: üç kural da sağlanıyor |
+| T6 | Tipler / tutarlılık | Her satırda `toplam_tutar_tl = miktar × birim_fiyat_tl` kontrol edilir; boş değer aranır. | Fark ≤ 0,01 TL; hiçbir alanda boş (eksik) değer yok | Geçti: en büyük fark 0,0000 TL; boş değer 0 |
+| T7 | Kategori değerleri | `tedarikci`, `urun_kategorisi`, `depo_bolgesi`, `teslimat_durumu` benzersiz değerleri listelenir. | `tedarikci` 6 değer; `urun_kategorisi` 5 değer (Hammadde, Ambalaj, Elektronik, Kimyasal, Yedek Parça); `depo_bolgesi` 5 değer (Marmara, Ege, İç Anadolu, Akdeniz, Karadeniz); `teslimat_durumu` yalnızca Zamanında, Gecikmiş, Kısmi Teslim | Geçti: 6 / 5 / 5 / 3 değer |
+| T8 | Parametre davranışı | `python src/veri_uret.py` iki kez çalıştırılır (varsayılan seed=42) ve iki çıktı karşılaştırılır. | İki dosya birebir aynıdır (tekrarlanabilirlik) | |
+| T9 | Parametre davranışı | `python src/veri_uret.py --seed 42 --satir 300` çalıştırılır. | Çıktıda 300 satır vardır; sütunlar, tipler ve aralıklar T3–T7 ile aynıdır | |
+| T10 | Parametre davranışı | `python src/veri_uret.py --seed 7` çalıştırılır ve seed=42 çıktısıyla karşılaştırılır. | İçerik farklıdır, ama şema ve kurallar (T3–T7) aynı kalır | |
