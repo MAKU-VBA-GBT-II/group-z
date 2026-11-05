@@ -1,8 +1,8 @@
-# Test Senaryoları — Görev 1 (Tedarik)
+# Test Senaryoları — Görev 2 (Tedarik)
 
-**Hazırlayan:** Serra Erdem (DQ) · **Test edilen dosya:** `data/tedarik_siparisleri.csv` · **Şema:** `docs/veri-sozlugu-g1.md`
+Hazırlayan: Serra Erdem (DQ) · Test edilen dosya: `data/tedarik_siparisleri.csv` · Üretici: `src/veri_uret.py` · Şema: `docs/veri-sozlugu.md`
 
-"Gerçekleşen sonuç" sütunu Hafta 4'te doldurulacaktır.
+"Gerçekleşen sonuç" sütunu test çalıştırıldıkça doldurulur.
 
 | No | Kategori | Senaryo | Beklenen sonuç | Gerçekleşen sonuç |
 |----|----------|---------|----------------|-------------------|
@@ -13,3 +13,6 @@
 | T5 | Tipler / aralıklar | `miktar`, `birim_fiyat_tl`, `teslim_suresi_gun` kontrol edilir. | `miktar` tam sayı ve ≥ 10; `birim_fiyat_tl` > 0 (2 ondalık); `teslim_suresi_gun` tam sayı ve 2–18 arası | |
 | T6 | Tipler / tutarlılık | Her satırda `toplam_tutar_tl = miktar × birim_fiyat_tl` kontrol edilir; boş değer aranır. | Fark ≤ 0,01 TL; hiçbir alanda boş (eksik) değer yok | |
 | T7 | Kategori değerleri | `tedarikci`, `urun_kategorisi`, `depo_bolgesi`, `teslimat_durumu` benzersiz değerleri listelenir. | `tedarikci` 6 değer; `urun_kategorisi` 5 değer (Hammadde, Ambalaj, Elektronik, Kimyasal, Yedek Parça); `depo_bolgesi` 5 değer (Marmara, Ege, İç Anadolu, Akdeniz, Karadeniz); `teslimat_durumu` yalnızca Zamanında, Gecikmiş, Kısmi Teslim | |
+| T8 | Parametre davranışı | `python src/veri_uret.py` iki kez çalıştırılır (varsayılan seed=42) ve iki çıktı karşılaştırılır. | İki dosya birebir aynıdır (tekrarlanabilirlik) | |
+| T9 | Parametre davranışı | `python src/veri_uret.py --seed 42 --satir 300` çalıştırılır. | Çıktıda 300 satır vardır; sütunlar, tipler ve aralıklar T3–T7 ile aynıdır | |
+| T10 | Parametre davranışı | `python src/veri_uret.py --seed 7` çalıştırılır ve seed=42 çıktısıyla karşılaştırılır. | İçerik farklıdır, ama şema ve kurallar (T3–T7) aynı kalır | |
