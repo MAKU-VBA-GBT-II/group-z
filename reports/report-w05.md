@@ -1,34 +1,41 @@
-# Sprint Raporu - Hafta 5 (Grup Z, Tedarik)
+# Haftalık Proje Durum Raporu (Hafta 05)
 
-Hazırlayan: İrem Deneri (PM) · Tarih: 2026-11-02
+**Hazırlayan (PM):** İrem Deneri  
+**Tarih:** 05 Kasım 2026  
+**Proje / Repozitory:** `MAKU-VBA-GBT-II` / `group-z`  
 
-## Özet
-Görev 1 teslimi sonrası düzeltmeler yapıldı. Görev 2 milestone'u ve 5 Issue açılıp rollere atandı. Bu haftanın odağı Görev 2'nin başlatılması ve açık Issue'ların neticelendirilmesi.
+---
 
-## Tamamlananlar
-- reports/report-w03.md dosya adı düzeltildi (raport → report).
-- README şirket adıyla güncellendi (Tedarik - Grup Z).
-- Görev 2 - Mini Ürün milestone'u açıldı (bitiş: Hafta 6'nın son günü).
-- Görev 2 Issue'ları açıldı ve atandı: G2-sem (Serra), G2-veri (Ceren), G2-analiz (Serra), G2-gorsel (Baki), G2-test (Serra).
-- Takımın tüm Issue'ları kapalı, açık Issue yok.
+## 1. Genel Durum ve Kontrol Özeti
 
-## Devam Edenler
-| Issue | Sahip | Durum | Son tarih |
-|---|---|---|---|
-| G2-sem | Serra | Başlanmadı | 4 Kasım |
-| G2-veri | Ceren | Başlanmadı | 8 Kasım |
-| G2-analiz | Serra | Başlanmadı | 10 Kasım |
-| G2-gorsel | Baki | Başlanmadı | 13 Kasım |
-| G2-test | Serra | Başlanmadı | 9 Kasım |
+* **Açık Issue Kontrolü:** Mevcut durumda **2 adet açık issue** bulunmaktadır. Devam eden analiz ve simülasyon görevleri aktif olarak sürdürülmektedir. Kapalı olan issue'lar ise ilgili PR ve commit kanıtlarıyla kapatılmıştır.
+* **Milestone Durumu:** "Görev 2 - Mini Ürün" dönüm noktasına bağlı tamamlanan görevler başarıyla kapatılmıştır.
+* **Ders Reposu & Atamalar:** `MAKU-VBA-GBT-II` ana reposundaki atamalar ve bildirimler kontrol edilmiş, gerekli yönlendirmeler yapılmıştır.
 
-## Engeller ve Riskler
-- G2-veri, G2-sem'e bağımlı (şema yayımlanmadan simülasyon yazılamaz).
-- Serra'ya 3 Issue düştü, iş yükü yoğun.
+---
 
-## Gelecek Hafta
-- G2-sem tamamlanıp BE'ye devredilecek.
-- G2-veri PR'ı açılıp DQ incelemesi başlayacak.
-- Dönem Raporu 1 hazırlanacak (son tarih: 8 Kasım).
+## 2. Issue ve Görev Takip Tablosu
 
-## Kanıt / Üretim Notu
-Rapor pm-rapor skill'i ile Claude kullanılarak üretildi.
+| Issue # | Görev / Başlık | Durum | Açıklama / Kapatma Gerekçesi | Kanıt / Bağlantı |
+| :--- | :--- | :--- | :--- | :--- |
+| **#26** | G2-analiz - Metrik hesabı ve bulgular | Açık | Aktif olarak devam ediyor (İrem-Deneri tarafından 3 gün önce açıldı). | [Issue #26 Linki](https://github.com/MAKU-VBA-GBT-II/group-z/issues/26) |
+| **#25** | G2-veri - Parametreli simülasyon | Açık | Aktif olarak devam ediyor (İrem-Deneri tarafından 3 gün önce açıldı). | [Issue #25 Linki](https://github.com/MAKU-VBA-GBT-II/group-z/issues/25) |
+| **#28** | G2-test - Test senaryoları ve PR incelemesi | Kapalı | Tamamlandı ve kapatıldı. | [Issue #28 Linki](https://github.com/MAKU-VBA-GBT-II/group-z/issues/28) |
+| **#27** | G2-gorsel - Grafik seti | Kapalı | Tamamlandı ve kapatıldı. | [Issue #27 Linki](https://github.com/MAKU-VBA-GBT-II/group-z/issues/27) |
+| **#24** | G2-sam - Veri şeması ve analiz planı | Kapalı | Tamamlandı ve kapatıldı (Görev 2 - Mini Ürün). | [Issue #24 Linki](https://github.com/MAKU-VBA-GBT-II/group-z/issues/24) |
+
+---
+
+## 3. Rapor Bağlantıları ve Kanıtlar (`reports/report-w05.md`)
+
+* **README Commit Linki:** [group-z README Güncellemesi](https://github.com/MAKU-VBA-GBT-II/group-z)
+* **w03 Düzeltmesi Linki:** [Rapor w05 Oluşturma Kodu/Commit](https://github.com/MAKU-VBA-GBT-II/group-z/blob/main/reports/report-w05.md)
+* **Milestone Linki ("Görev 2 - Mini Ürün"):** `[Görev 2 - Mini Ürün Dönüm Noktası Linki]`
+
+---
+
+## 4. Kapsam Dışı ve Sonraki Adımlar
+
+* **TÜBİTAK Issue'su:** Bu haftaki sprint kapsamı dışında tutulmuştur.
+* **Gelecek Hafta Hedefleri:** Açık olan `#26` (`G2-analiz`) ve `#25` (`G2-veri`) numaralı issue'ların tamamlanarak kapatılması ve sonuçların rapora işlenmesi.
+*
